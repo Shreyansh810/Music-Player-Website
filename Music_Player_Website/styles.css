@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img {
+    width: 40px;
+    height: 40px;
+    margin: 0 12px;
+}
+
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(closeup-shot-beautiful-dandelion.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#songTimeLapse {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.bottom {
+    position: sticky;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons {
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.icons i {
+    padding: 0 5px;
+}
+
+.songContainer {
+    margin-top: 10px;
+    background-color: azure;
+    color: black;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 22px;
+    padding: 0 15px;
+}
+
+.songContainer img {
+    height: 45px;
+    border-radius: 22px;
+}
+
+.timeStamp i {
+    cursor: pointer;
+}
+
+.songContainerBox {
+    margin-top: 60px;
+}
+
+.currSong_info {
+    position: absolute;
+    left: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.currSong_info img {
+    opacity: 0;
+    height: 30px;
+    width: 30px;
+    transition: opacity 0.5s ease-in;
+}
