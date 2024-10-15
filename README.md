@@ -1,2 +1,2 @@
 # Music-Player-Website
-This is Frontend Project made with help of Web Dev. Languages -- HTML5, CSS, Javascript.
+This is Frontend Project made with help of Web Dev. Languages -- HTML5, CSS3, Javascript.
